@@ -38,7 +38,7 @@
 }
 .top li a:hover{
     /* 鼠标选中时背景变为黑色 */
-    background-color: #111;
+    background-color: black;
 }
 .top ul li ul{
     /* 设置二级菜单 */
