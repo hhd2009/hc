@@ -1,10 +1,10 @@
 //<!CDATA[
 var bodyBgs = [];
 bodyBgs[0] = "\./hc/tool/background/1.jpg";
-//bodyBgs[1] = "\./hc/tool/background/2.jpg";
-//bodyBgs[2] = "\./hc/tool/background/3.jpg";
-//bodyBgs[3] = "\./hc/tool/background/4.jpg";
-//bodyBgs[4] = "\./hc/tool/background/5.jpg";
+bodyBgs[1] = "\./hc/tool/background/2.jpg";
+bodyBgs[2] = "\./hc/tool/background/3.jpg";
+bodyBgs[3] = "\./hc/tool/background/4.jpg";
+bodyBgs[4] = "\./hc/tool/background/5.jpg";
 //bodyBgs[5] = "\./hc/tool/background/6.jpg";
 //bodyBgs[6] = "\./hc/tool/background/7.jpg";
 //bodyBgs[7] = "\./hc/tool/background/8.jpg";
