@@ -1,19 +1,19 @@
 //<!CDATA[
 var bodyBgs = [];
-bodyBgs[0] = "\\./hc/tool/background/1.jpg";
-bodyBgs[1] = "\\./hc/tool/background/2.jpg";
-bodyBgs[2] = "\\./hc/tool/background/3.jpg";
-bodyBgs[3] = "\\./hc/tool/background/4.jpg";
-bodyBgs[4] = "\\./hc/tool/background/5.jpg";
-//bodyBgs[5] = "\\./hc/tool/background/6.jpg";
-//bodyBgs[6] = "\\./hc/tool/background/7.jpg";
-//bodyBgs[7] = "\\./hc/tool/background/8.jpg";
-//bodyBgs[8] = "\\./hc/tool/background/9.jpg";
-//bodyBgs[9] = "\\./hc/tool/background/10.jpg";
-//bodyBgs[10] = "\\./hc/tool/background/11.jpg";
-//bodyBgs[11] = "\\./hc/tool/background/12.jpg";
-//bodyBgs[12] = "\\./hc/tool/background/13.jpg";
-//bodyBgs[13] = "\\./hc/tool/background/14.jpg";
+bodyBgs[0] = "\\./tool/background/1.jpg";
+bodyBgs[1] = "\\./tool/background/2.jpg";
+bodyBgs[2] = "\\./tool/background/3.jpg";
+bodyBgs[3] = "\\./tool/background/4.jpg";
+bodyBgs[4] = "\\./tool/background/5.jpg";
+//bodyBgs[5] = "\\./tool/background/6.jpg";
+//bodyBgs[6] = "\\./tool/background/7.jpg";
+//bodyBgs[7] = "\\./tool/background/8.jpg";
+//bodyBgs[8] = "\\./tool/background/9.jpg";
+//bodyBgs[9] = "\\./tool/background/10.jpg";
+//bodyBgs[10] = "\\./tool/background/11.jpg";
+//bodyBgs[11] = "\\./tool/background/12.jpg";
+//bodyBgs[12] = "\\./tool/background/13.jpg";
+//bodyBgs[13] = "\\./tool/background/14.jpg";
 
 var randomBgIndex = Math.round( Math.random() * 5 );
 
