@@ -17,6 +17,7 @@ bodyBgs[5] = "\\./tool/background/5.jpg";
 
 var randomBgIndex = Math.round( Math.random() * 5 );
 var img=bodyBgs[randomBgIndex]
+console.log('背景图为：'+img)
 //输出随机的背景图
 if(img="undefined"){
   document.write('<style>body{background:url(' + "\\./tool/background/undefined.jpg" + ')no-repeat; background-size:cover;-webkit-background-attachment: fixed;background-attachment: fixed;}</style>');
