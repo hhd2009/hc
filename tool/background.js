@@ -1,6 +1,6 @@
 //<!CDATA[
 var bodyBgs = [];
-//bodyBgs[0] = "./background/1.jpg";
+bodyBgs[0] = "./background/1.jpg";
 //bodyBgs[1] = "./background/2.jpg";
 //bodyBgs[2] = "./background/3.jpg";
 //bodyBgs[3] = "./background/4.jpg";
