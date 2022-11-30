@@ -5,6 +5,7 @@
 <script type="text/javascript" src="\./package/GetQueryString.js"></script>
 <div></div>
 <script>
+  var div = document.querySelector('div')
   div.innerHTML=`
   ${utf8_decode(GetQueryString("url"))}
   `
