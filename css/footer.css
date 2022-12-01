@@ -1,8 +1,12 @@
 .footer
 {
-  background-color: white;
+  background-color: grey;
   opacity: 0.2;
-  text-align: center;
-  color: black;
+  text-align: center;  
   padding: 10dp;
+}
+
+.footer.p
+{
+  color: black;
 }
