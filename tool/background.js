@@ -22,7 +22,16 @@ console.log('背景图为：'+img)
 if(img==undefined){
   img="\\./tool/background/undefined.jpg"
 }
-else{
-  document.write('<style>body{background:url(' + img + ')no-repeat; background-size:cover;-webkit-background-attachment: fixed;background-attachment: fixed;}</style>');
+document.write(`
+body {
+  font-family: "微软雅黑", sans-serif;
+  /* 这里修改背景图 */
+  background: url(`+img+`) no-repeat center;
+  background-size: cover;
+  -webkit-background-attachment: fixed;
+  background-attachment: fixed;
+  color: #fff;
 }
+`);
+
 //]]>
