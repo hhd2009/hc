@@ -1,5 +1,5 @@
 //<!CDATA[
-var dir="https://hhd2009.gthub.io/hc"
+var dir="https://hhd2009.github.io/hc"
 var bodyBgs = [];
 bodyBgs[1] = dir+"/tool/background/1.jpg";
 bodyBgs[2] = dir+"/tool/background/2.jpg";
