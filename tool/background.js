@@ -23,6 +23,7 @@ if(img==undefined){
   img="\\./tool/background/undefined.jpg"
 }
 document.write(`
+<style>
 body {
   font-family: "微软雅黑", sans-serif;
   /* 这里修改背景图 */
@@ -32,6 +33,7 @@ body {
   background-attachment: fixed;
   color: #fff;
 }
+</style>
 `);
 
 //]]>
