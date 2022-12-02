@@ -21,7 +21,7 @@ var img=bodyBgs[randomBgIndex]
 console.log('背景图为：'+img)
 //输出随机的背景图
 if(img==undefined){
-  img=dir+"/tool/background/undefined.jpg"
+  img="/tool/background/undefined.jpg"
 }
 document.write(`
 <style>
