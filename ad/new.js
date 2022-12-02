@@ -14,7 +14,7 @@ function new_ad(div,ad){
 </div>
 <script type="text/javascript">
 var close = document.getElementById("close");
-var ad = document.getElementById(${div});
+var ad = document.getElementById(\"${div}\");
 //关闭广告
 close.onclick = function(){
   ad.style.display = "none";
