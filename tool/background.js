@@ -32,7 +32,7 @@ body {
   background-size: cover;
   -webkit-background-attachment: fixed;
   background-attachment: fixed;
-  color: #fff;
+  /* color: #fff; */
 }
 </style>
 `);
