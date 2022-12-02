@@ -1,11 +1,11 @@
-function new(div,ad){
+function new_ad(div,ad){
   document.getElementById(div).innerHTML=(`
 <!-- ad中包含【海报】和【关闭键】两部分 -->
 <link rel="stylesheet" href="\./ad/style.css">
 <div id="ad">
   <!-- 海报 -->
   <div id="post">
-    <a><img src=${ad}></a>
+    ${ad}
   </div>
   <!-- 关闭键 -->
   <div id="close">
