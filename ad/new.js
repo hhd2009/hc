@@ -9,14 +9,14 @@ function new_ad(div,ad){
   </div>
   <!-- 关闭键 -->
   <div id="close">
-    <img src="\./ad/close.jpg">
+    <a href="javascript:close_ad()"><img src="\./ad/close.jpg"></a>
   </div>      
 </div>
 <script type="text/javascript">
 var close = document.getElementById("close");
 var ad = document.getElementById(\"${div}\");
 //关闭广告
-close.onclick = function(){
+function close_ad(){
   ad.style.display = "none";
 }
 </script>`)
