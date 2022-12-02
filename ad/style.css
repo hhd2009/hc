@@ -1,0 +1,10 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+#ad #close{
+  height:15px;
+}
+#ad #close img{
+  float:right;	/*关闭键close_img右浮*/
+}
