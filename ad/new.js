@@ -18,5 +18,6 @@ var ad = document.getElementById("ad");
 //关闭广告
 close.onclick = function(){
   ad.style.display = "none";
+</script>
 }`)
 }
