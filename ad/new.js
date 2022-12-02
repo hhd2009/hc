@@ -1,5 +1,5 @@
-function new(ad){
-  document.write(`
+function new(div,ad){
+  document.getElementById(div).innerHTML=(`
 <!-- ad中包含【海报】和【关闭键】两部分 -->
 <link rel="stylesheet" href="\./ad/style.css">
 <div id="ad">
