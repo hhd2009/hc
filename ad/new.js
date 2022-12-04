@@ -10,7 +10,7 @@ function new_ad(div,ad){
   </div>
   <!-- 关闭键 -->
   <div id="close">
-    <a href="javascript:document.getElementById(\'${div}\').style.display=\'none\'"><img src="\\./hc/ad/close.jpg"></a>
+    <a href="javascript:info=document.getElementById(\'${div}\').style.display=\'none\';if(info==\'none\'){console.log(\'广告对象${div}已关闭！\')}else{console.log(\'广告对象${div}未能关闭！\')}"><img src="\\./hc/ad/close.jpg"></a>
   </div>      
 </div>`)
 }
