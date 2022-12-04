@@ -10,7 +10,7 @@ function new_ad(div,ad){
   </div>
   <!-- 关闭键 -->
   <div id="close">
-    <a href="javascript:close_ad(\"${div}\")"><img src="\\./hc/ad/close.jpg"></a>
+    <a href="javascript:close_ad(\'${div}\')"><img src="\\./hc/ad/close.jpg"></a>
   </div>      
 </div>`)
 }
