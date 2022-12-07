@@ -3,7 +3,18 @@ var close_img="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgMCAg
 function new_ad(div,ad){
   document.getElementById(div).innerHTML=(`
 <!-- ad中包含【海报】和【关闭键】两部分 -->
-<link rel="stylesheet" href="\\./hc/ad/style.css">
+<style>
+*{
+  margin:0px;
+  padding:0px;
+}
+#ad #close{
+  height:15px;
+}
+#ad #close img{
+  float:right;	/*关闭键close_img右浮*/
+}
+</style>
 <div id="ad">
   <!-- 海报 -->
   <div id="post">
