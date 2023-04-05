@@ -3,9 +3,9 @@ var dir="https://hhd2009.github.io/hc"
 var bodyBgs = [];
 bodyBgs[1] = "/tool/background/1.jpg";
 bodyBgs[2] = "/tool/background/2.jpg";
-bodyBgs[3] = "/tool/background/3.jpg";
+//bodyBgs[3] = "/tool/background/3.jpg";
 bodyBgs[4] = "/tool/background/4.jpg";
-bodyBgs[5] = "/tool/background/5.jpg";
+//bodyBgs[5] = "/tool/background/5.jpg";
 //bodyBgs[6] = "/tool/background/6.jpg";
 //bodyBgs[7] = "/tool/background/7.jpg";
 //bodyBgs[8] = "/tool/background/8.jpg";
@@ -21,7 +21,7 @@ var img=bodyBgs[randomBgIndex]
 console.log('背景图为：'+img)
 //输出随机的背景图
 if(img==undefined){
-  img="/tool/background/undefined.jpg"
+  img="/tool/background/1.jpg"
 }
 document.write(`
 <style>
