@@ -1,6 +1,7 @@
 <html lang="zh-CN">
    <head>
-      <script type="text/javascript" src="\./package/f12.js"></script>
+      <script type="text/javascript" src="\./hc/_history.js"></script>
+      <script type="text/javascript" src="\./hc/anti_debug.js"></script>
       <title>寒冬之城|工具|导航栏</title>
       <link rel="stylesheet" href="\./hc/css/top.css">
    </head>
@@ -27,6 +28,8 @@
                        <li><a href="javascript:window.open('\\./hc/link','_top')">更多</a></li>
                     </ul>
                 </li>
+                <div id="_history"></div>>
+                <script>if(_history){document.querySelector('_history').innerHTML=`<li><a href="javascript:window.open('\\./hc/_history','_top')">历史</a></li>`}</script>
                 </ul>
             </center>
         </div>
