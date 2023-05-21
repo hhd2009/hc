@@ -22,7 +22,7 @@ function new_ad(div,ad){
   </div>
   <!-- 关闭键 -->
   <div id="close">
-    <a href="javascript:info=document.getElementById(\'${div}\').style.display=\'none\';if(info==\'none\'){console.log(\'广告对象${div}已关闭！\')}else{console.log(\'广告对象${div}未能关闭！\')}"><img src="${close_img}"></a>
+    <a title="关闭" href="javascript:info=document.getElementById(\'${div}\').style.display=\'none\';if(info==\'none\'){console.log(\'广告对象${div}已关闭！\')}else{console.log(\'广告对象${div}未能关闭！\')}"><img src="${close_img}"></a>
   </div>      
 </div>`)
 }
